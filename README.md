@@ -1,9 +1,11 @@
 <html>
+    <style>
 
+    </style>
 <head>
-    <frameset rows="9%,91%">
-        <frame src="header.html">
-            <frame src="background.html" name="FrmeDisp">
+    <frameset rows="9%,91%" noresize>
+        <frame src="header.html" noresize>
+            <frame src="background.html" name="FrmeDisp" noresize>
     </frameset>
 
 </head>
