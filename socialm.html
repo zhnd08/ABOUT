@@ -1,36 +1,45 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Contact</title>
 </head>
 
 <body>
-    <form>
-        <div class="form-container">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName">
 
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName">
+    <div class="container">
+        <div class="item">
+            <br>
+            <p1><strong>
+                    <center> CONTACT US </center>
+                </strong></p1>
+            <div class="form-container">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName"> <br>
 
-            <div class="radio-group">Sex:
-                <label><input type="radio" name="sex" value="male"> Male</label>
-                <label><input type="radio" name="sex" value="female"> Female</label>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+
+                <div class="radio-group">Sex:
+                    <label><input type="radio" name="sex" value="male"> Male</label>
+                    <label><input type="radio" name="sex" value="female"> Female</label>
+                </div>
+
+                <label for="emailId">Email</label>
+                <input type="text" id="emailId" name="emailId">
+
+                <div>
+                    <label for="message">Message us</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+
+                </form>
             </div>
+            <div class="submit"></div>
 
-            <label for="contactNumber">Contact Number</label>
-            <input type="text" id="contactNumber" name="contactNumber">
-
-            <label for="emailId">Email</label>
-            <input type="text" id="emailId" name="emailId">
-
-        <div>
-            <label for="message"> Message us </label>
-            <textarea>  </textarea>
         </div>
-        <center><button type="submit" class="submit-button">Submit</button></center>
-    </form>
+    </div>
 </body>
 
 </html>
