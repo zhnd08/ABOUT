@@ -59,7 +59,7 @@ a {
 
 .tinput {
     width:100%;
-    padding:35px;
+    padding:30px;
     border:2px solid white;
     color: white;
     border-radius:10px;
@@ -95,11 +95,16 @@ a {
     color: white;
 }
 footer {
+    margin-top: 10px;
     color:white;
-    padding:10px;
+    padding: 0px;
     text-align:center;
     width:100%;
     position: absolute;
     bottom:0;
     left:0;
+}
+textarea {
+    overflow: hidden;
+    resize: none;
 }
